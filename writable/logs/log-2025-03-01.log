@@ -1,0 +1,126 @@
+CRITICAL - 2025-03-01 07:02:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/common_js.php"
+[Method: GET, Route: home/test2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/common_js.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/common_js.php', [], true)
+ 3 APPPATH\Views\home\test2.php(434): view('layout/common_js.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeigniter46\\app\\Views\\home\\test2.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/test2', [], true)
+ 7 APPPATH\Controllers\Home.php(23): view('home/test2')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->test2()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 07:02:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/common_js.php"
+[Method: GET, Route: home/test2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/common_js.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/common_js.php', [], true)
+ 3 APPPATH\Views\home\test2.php(434): view('layout/common_js.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeigniter46\\app\\Views\\home\\test2.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/test2', [], true)
+ 7 APPPATH\Controllers\Home.php(23): view('home/test2')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->test2()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 07:02:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/common_js.php"
+[Method: GET, Route: home/test2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/common_js.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/common_js.php', [], true)
+ 3 APPPATH\Views\home\test2.php(434): view('layout/common_js.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeigniter46\\app\\Views\\home\\test2.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/test2', [], true)
+ 7 APPPATH\Controllers\Home.php(23): view('home/test2')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->test2()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:14:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 09:22:36 --> PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[Method: POST, Route: Home/test2ListAjax]
+in APPPATH\Libraries\DB.php on line 94.
+ 1 APPPATH\Libraries\DB.php(94): PDOStatement->execute([...])
+ 2 APPPATH\Controllers\Home.php(86): App\Libraries\DB->query2('SELECT count(id) as count FROM  emp e    where 1   AND 
+            ( 
+                full_name like ? OR 
+                email like ? OR
+                mobile like ? OR
+                city like ? OR
+                dept like ? 
+            )', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->test2ListAjax()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:24:21 --> Error: Call to undefined function App\Controllers\pre()
+[Method: POST, Route: Home/form_action]
+in APPPATH\Controllers\Home.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->form_action()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:28:16 --> Error: Call to undefined function App\Controllers\pre()
+[Method: POST, Route: Home/form_action]
+in APPPATH\Controllers\Home.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->form_action()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:41:30 --> ErrorException: Undefined array key "full_name"
+[Method: POST, Route: Home/form_action]
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "full_name"', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->form_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:49:05 --> ErrorException: Undefined array key "address"
+[Method: POST, Route: Home/form_action]
+in APPPATH\Controllers\Home.php on line 147.
+ 1 APPPATH\Controllers\Home.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->form_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:50:01 --> ErrorException: Undefined array key "address"
+[Method: POST, Route: Home/form_action]
+in APPPATH\Controllers\Home.php on line 147.
+ 1 APPPATH\Controllers\Home.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->form_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
