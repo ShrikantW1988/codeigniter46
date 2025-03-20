@@ -1,0 +1,504 @@
+DEBUG - 2025-03-17 05:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-17 06:21:15 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:22:02 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:24:10 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:24:11 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:24:11 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:24:12 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:24:12 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:27:04 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:27:05 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:27:06 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:27:06 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 06:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 06:36:14 --> [DEPRECATED] Creation of dynamic property App\Libraries\MareiCollection::$0 is deprecated in APPPATH\Libraries\DB.php on line 844.
+ 1 APPPATH\Libraries\DB.php(595): App\Libraries\MareiCollection->offsetSet(0, Object(stdClass))
+ 2 APPPATH\Controllers\Home.php(213): App\Libraries\DB->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->fetchData()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:44:09 --> Error: Call to undefined method App\Libraries\SpreadsheetLibrary::getActiveSheet()
+[Method: GET, Route: Phpspreadsheet/test2]
+in APPPATH\Controllers\Phpspreadsheet.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test2()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 06:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 06:47:45 --> [DEPRECATED] Creation of dynamic property App\Libraries\MareiCollection::$0 is deprecated in APPPATH\Libraries\DB.php on line 844.
+ 1 APPPATH\Libraries\DB.php(595): App\Libraries\MareiCollection->offsetSet(0, Object(stdClass))
+ 2 APPPATH\Controllers\Home.php(213): App\Libraries\DB->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->fetchData()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 06:47:48 --> [DEPRECATED] Creation of dynamic property App\Libraries\MareiCollection::$0 is deprecated in APPPATH\Libraries\DB.php on line 844.
+ 1 APPPATH\Libraries\DB.php(595): App\Libraries\MareiCollection->offsetSet(0, Object(stdClass))
+ 2 APPPATH\Controllers\Home.php(213): App\Libraries\DB->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->fetchData()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 06:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-17 06:56:57 --> Error: Typed property PhpOffice\PhpSpreadsheet\Spreadsheet::$workSheetCollection must not be accessed before initialization
+[Method: GET, Route: Phpspreadsheet/test2]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Spreadsheet.php on line 449.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Spreadsheet.php(436): PhpOffice\PhpSpreadsheet\Spreadsheet->disconnectWorksheets()
+ 2 SYSTEMPATH\CodeIgniter.php(933): PhpOffice\PhpSpreadsheet\Spreadsheet->__destruct()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:56:57 --> [Caused by] Error: Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Phpspreadsheet.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test2()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:57:12 --> Error: Class "App\Controllers\Xlsx" not found
+[Method: GET, Route: Phpspreadsheet/test2]
+in APPPATH\Controllers\Phpspreadsheet.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test2()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:57:13 --> Error: Class "App\Controllers\Xlsx" not found
+[Method: GET, Route: Phpspreadsheet/test2]
+in APPPATH\Controllers\Phpspreadsheet.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test2()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 06:59:27 --> ErrorException: fopen(http://localhost/codeigniter46/writable/uploads/example.xlsx): Failed to open stream: HTTP wrapper does not support writeable connections
+[Method: GET, Route: Phpspreadsheet/test2]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/codeigniter46/writable/uploads/example.xlsx): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\codeigniter46\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 117)
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(117): fopen('http://localhost/codeigniter46/writable/uploads/example.xlsx', 'wb')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(515): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('http://localhost/codeigniter46/writable/uploads/example.xlsx')
+ 4 APPPATH\Libraries\SpreadsheetLibrary.php(25): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('http://localhost/codeigniter46/writable/uploads/example.xlsx')
+ 5 APPPATH\Controllers\Phpspreadsheet.php(57): App\Libraries\SpreadsheetLibrary->saveSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'http://localhost/codeigniter46/writable/uploads/example.xlsx')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:21:22 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:21:53 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:21:54 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:21:55 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:21:55 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:21:56 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:23:11 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Controllers\Phpspreadsheet.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-17 07:51:44 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:52:38 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:52:39 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:52:40 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 07:52:40 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:05:31 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:05:33 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:05:44 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:05:45 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:03 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(56): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:04 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(56): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:04 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(56): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:05 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(56): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:06 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(56): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:11 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(56): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:06:33 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(55): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:03 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(57): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:04 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(57): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:05 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(57): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:08 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:08 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:09 --> Error: Class "App\Controllers\Fill" not found
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:07:43 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(57): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 08:08:38 --> ErrorException: Undefined variable $lib
+[Method: GET, Route: Phpspreadsheet/test3]
+in APPPATH\Controllers\Phpspreadsheet.php on line 104.
+ 1 APPPATH\Controllers\Phpspreadsheet.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lib', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Phpspreadsheet.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test3()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-17 09:13:53 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, PhpOffice\PhpSpreadsheet\Spreadsheet given
+[Method: GET, Route: Phpspreadsheet/test]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 38.
+ 1 APPPATH\Libraries\SpreadsheetLibrary.php(38): urlencode(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 2 APPPATH\Controllers\Phpspreadsheet.php(57): App\Libraries\SpreadsheetLibrary->downloadSpreadsheet(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'example.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Phpspreadsheet->test()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phpspreadsheet))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

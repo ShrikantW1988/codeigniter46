@@ -1,10 +1,3 @@
-
-
-
-
-		
-
-
 		<!-- Main content -->
 		<div class="content-wrapper">
 
@@ -59,8 +52,8 @@
 
 
  <!-- Vertical form modal -->
-    <div id="myModal" class="modal fade" tabindex="-1">
-		<div class="modal-dialog">
+    <div id="myModal" class="modal fade" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header bg-primary text-white">
 					<h5 class="modal-title">Employee form</h5>
@@ -112,8 +105,13 @@
                                     </select>									
 								</div>
                                 <div class="col-sm-6">
-									<label class="form-label">DOB </label>
-                                    <input class="form-control error_flag" type="date" name="dob" id="dob">									
+									<label class="form-label">DOB </label> 
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="ph-calendar"></i>
+                                        </span>
+                                        <input class="form-control  datepicker-autohide  error_flag"  name="dob" id="dob" autocomplete="off">	
+                                    </div>
 								</div>								
 							</div>
 						</div>
@@ -136,12 +134,43 @@
 
                         <div class="mb-3">
 							<div class="row">
-								<div class="col-sm-4">
-									<label class="form-label">City</label>
-									<input type="text" placeholder="" class="form-control error_flag" name="city" id="city">
+								<div class="col-sm-6">
+									<label class="form-label">Active Range</label>
+									<input type="text"  class="form-control daterange-basic error_flag" name="active_range" id="active_range" autocomplete="off">
 								</div>
 
-								<div class="col-sm-4">
+								<div class="col-sm-6">
+									<label class="form-label">Technical Skills</label>
+									<select name="technical_skills[]" id="technical_skills" class="form-control   select"  multiple="" tabindex="-1" >
+                                        <option value="C++">C++</option>
+                                        <option value="C">C</option>
+                                        <option value="Java">Java</option>
+                                        <option value="ASP">ASP</option>
+                                        <option value="PHP">PHP</option>
+                                        <option value="Python">Python</option>
+                                        <option value="Mysql">Mysql</option>
+                                        <option value="SQL Server">SQL Server</option>
+                                        <option value="HTML">HTML</option>
+                                        <option value="MS Office">MS Office</option>
+                                        <option value="Codeigniter">Codeigniter</option>
+                                        <option value="Phalcon">Phalcon</option>
+                                        <option value="Yii">Yii</option>
+                                        <option value="jQuery">jQuery</option>
+                                        <option value="React">React</option>
+                                        <option value="Bootstrap">Bootstrap</option>
+                                    </select>
+                                    <input type="hidden" name="" id="technical_skills_error" class="error_flag">									
+								</div>
+							</div>
+						</div>
+
+                        <div class="mb-3">
+							<div class="row">
+								<div class="col-sm-6">
+									<label class="form-label">Country</label>
+									<input type="search" class="form-control" id="autocomplete_basic" autocomplete="new-search" placeholder="Search country">
+								</div>
+                                <div class="col-sm-6">
 									<label class="form-label">State/Province</label>
 									<select class="form-select error_flag" id="state" name="state">
                                         <option value="">Select State</option>
@@ -182,7 +211,17 @@
                                     </select>
 								</div>
 
-								<div class="col-sm-4">
+							</div>
+						</div>
+
+                        <div class="mb-3">
+							<div class="row">
+								<div class="col-sm-6">
+									<label class="form-label">City</label>
+									<input type="text" placeholder="" class="form-control error_flag" name="city" id="city">
+								</div>							
+
+								<div class="col-sm-6">
 									<label class="form-label">ZIP code</label>
 									<input type="text" placeholder="" class="form-control error_flag" name="zip_code" id="zip_code">
 								</div>
@@ -291,6 +330,78 @@ $(document).ready(function()
                 });             
         }); 
 
+        $('.select').select2();
+
+         // Basic initialization
+        $('.daterange-basic').daterangepicker({
+            applyClass: 'btn-success',
+            cancelClass: 'btn-danger',
+            autoApply: true,      // Automatically apply the selected date
+            locale: {
+                format: 'DD-MM-YYYY' // Set your desired date format
+            }            
+        });
+
+        const dpBasicElement = document.getElementById('dob');
+        if (dpBasicElement) {
+            const dpBasic = new Datepicker(dpBasicElement, {
+                container: '#myModal .modal-body',
+                buttonClass: 'btn',
+                prevArrow: document.dir == 'rtl' ? '&rarr;' : '&larr;',
+                nextArrow: document.dir == 'rtl' ? '&larr;' : '&rarr;',
+                autohide: true,
+                format: 'dd-mm-yyyy',
+            
+            });
+        } else {
+            console.error('dpBasicElement not found');
+        }      
+
+           // Demo data
+           const autocompleteData = [
+            "Andorra",
+            "United Arab Emirates",
+            "Afghanistan",
+            "Antigua and Barbuda",
+            "Anguilla",
+            "Albania",
+            "Armenia",
+            "Angola",
+            "Antarctica",
+            "Argentina",
+            "American Samoa",
+            "Austria",
+            "Australia",
+            "Aruba",
+            "Ã…land",
+            "Azerbaijan",
+            "Bosnia and Herzegovina",
+            "Barbados",
+            "Bangladesh"
+        ];
+         // Basic
+         const autocompleteBasic = new autoComplete({
+            selector: "#autocomplete_basic",
+            data: {
+                src: autocompleteData
+            },
+            resultItem: {
+                highlight: true
+            },
+            events: {
+                input: {
+                    selection: function(event){
+                        const selection = event.detail.selection.value;
+                        autocompleteBasic.input.value = selection;
+                    }
+                }
+            }
+        });
+
+        
+
+      
+
         $(document).on('click','.btn_edit',function()
         {             
             var id = $(this).data('id');
@@ -331,7 +442,11 @@ $(document).ready(function()
                         else if(objJSON.row.gander == 'Female')
                         {
                             $("#female").prop("checked", true);
-                        }                         
+                        }                        
+                        $('#active_range').val(objJSON.row.active_range); 
+                        
+                        $('#technical_skills').val(objJSON.row.skills_array).trigger('change');
+                        //$('#technical_skills').val(['Java','PHP']).trigger('change');
                     }                    
                 },
                 error: function(data) {
@@ -342,6 +457,8 @@ $(document).ready(function()
 
         $(document).on('click','.btn_new',function()
         {   
+         
+            $("#technical_skills").val('').trigger('change');     
             clear_validation();
             $('#form').trigger("reset");          
             $('#myModal').modal('show');
@@ -433,6 +550,9 @@ $(document).ready(function()
                 if ($("#" + item).hasClass("is-invalid")) {
                     $("#" + item).removeClass("is-invalid");
                     $("div." + item).remove();
+                }
+                if ($("#" + item).hasClass("is-valid")) {
+                    $("#" + item).removeClass("is-valid");                   
                 }
             });
         }

@@ -24,7 +24,7 @@ div{
   .dt-buttons{
     .btn{
       border-radius: 0.25rem !important;
-    }
+    }    
   }
   padding: 0;
   .btn-group{
@@ -41,6 +41,7 @@ div{
     background-color: $primary-color;
     border: 1px solid $white;
   }
+
   width: 100%;
   &+.dataTables_wrapper{
     margin-top: 20px;

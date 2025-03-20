@@ -84,3 +84,5 @@ define('ASSETS_URL2', 'http://localhost/codeigniter46/public/attex/assets/');
 define('ASSETS_URL3', 'http://localhost/codeigniter46/public/drezon/assets/');
 define('ASSETS_URL4', 'http://localhost/codeigniter46/public/dashonic/assets/');
 define('ASSETS_URL5', 'http://localhost/codeigniter46/public/viho/assets/');
+
+define('UPLOAD_PATH', 'writable/uploads/');

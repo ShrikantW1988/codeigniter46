@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+
 class Home extends BaseController
 {
     public $db, $db2;
@@ -132,6 +133,7 @@ class Home extends BaseController
     {
         $post = $_POST;
 
+        //pre($post);die;
 
         $csrfValue = isset($_POST['csrf_token']) ? $_POST['csrf_token'] : '';  
         if (!verifyCSRFToken($csrfValue) || empty($csrfValue)) 
@@ -142,6 +144,7 @@ class Home extends BaseController
         } 
 
         //pre($post);
+        $technical_skill = "";
         $error = array();
         $response = array();
         if($_POST['full_name'] == "") {  $error['full_name'] = "Enter full name."; } 
@@ -153,8 +156,13 @@ class Home extends BaseController
         if($_POST['state'] == "") {  $error['state'] = "Enter state."; } 
         if($_POST['address'] == "") {  $error['address'] = "Enter address."; } 
         if($_POST['zip_code'] == "") {  $error['zip_code'] = "Enter zip code."; } 
-
-        if(!isset($_POST['gander'])){  $error['gander_error'] = "Plz select gander"; } 
+        if($_POST['active_range'] == "") {  $error['active_range'] = "Select active range."; }
+        if(!isset($_POST['technical_skills']) || $_POST['technical_skills'] == "") {  $error['technical_skills_error'] = "Select technical skills."; }
+        if(!isset($_POST['gander'])){  $error['gander_error'] = "Plz select gander"; }
+        if(isset($_POST['technical_skills']) && count($_POST['technical_skills']) > 0)
+        {
+            $technical_skill = implode(',', $_POST['technical_skills']);
+        } 
 
         if($error)
         {
@@ -163,6 +171,9 @@ class Home extends BaseController
         }
         else
         {
+            $post['technical_skills'] = $technical_skill;
+            $post['dob'] = date("Y-m-d",strtotime($post['dob']));
+
             if($_POST['mode'] == 'add')
             {
                 //pre($post);die;
@@ -211,9 +222,24 @@ class Home extends BaseController
         {
             $data = $this->db2->table('emp')->where([['id',$id]])->get()->toRowArray();
 
+            $data['dob'] = date("d-m-Y",strtotime($data['dob']));
+
+            $array = explode(',', $data['technical_skills']);
+            $data['skills_array'] = $array;
+
             $response['status'] = 'success';
             $response['row'] = $data;            
         } 
         die(json_encode($response));
+    } 
+    public function fetchCountries()
+    {
+        header("Access-Control-Allow-Origin: *");
+        header("Content-Type: application/json");
+
+        $data = $this->db2->table('countries')->get()->toArray();
+        $countries = array_column($data,'name');
+        //pre($countries);
+        echo json_encode($countries);
     }
 }
