@@ -12,10 +12,13 @@ use PhpOffice\PhpSpreadsheet\Style\Alignment;
 use PhpOffice\PhpSpreadsheet\Style\Border;
 use PhpOffice\PhpSpreadsheet\Style\Fill;
 
+
 class SpreadsheetLibrary 
 {
     protected $spreadsheet;
     protected $sheet;
+
+    protected $sheetData;
 
     public function __construct()
     {
@@ -26,6 +29,82 @@ class SpreadsheetLibrary
     {
         return new Spreadsheet();
     } 
+    function loadSpreadsheet($filePath)
+    {
+        return IOFactory::load($filePath);
+    }
+    function loadSpreadsheetArray($filePath)
+    {
+        $this->spreadsheet = IOFactory::load($filePath);   
+        $this->sheet = $this->spreadsheet->getActiveSheet(); 
+        
+        // Initialize a flag to check if the sheet is empty
+        $isEmpty = 1;
+        
+        $data = $res = array();
+        
+        // Iterate through the rows and columns to check for non-empty cells
+        foreach ($this->sheet->getRowIterator() as $row) 
+        {
+            $cellIterator = $row->getCellIterator();
+            //$cellIterator->setIterateOnlyExistingCells(true); // This skips empty cells
+            $row = array();
+
+            foreach ($cellIterator as $cell) 
+            {               
+                $row[] = $cell->getValue();
+                if ($cell->getValue() !== null) 
+                {                    
+                    $isEmpty = 0;                   
+                }
+            }
+            $data[] = $row;
+        }
+        $res['isEmpty'] =$isEmpty;        
+        $res['data'] = $data;
+        return $res;
+    }
+    function loadSpreadsheetData($filePath)
+    {
+        $this->spreadsheet = IOFactory::load($filePath);       
+        //$this->sheetData = $this->spreadsheet->getActiveSheet()->toArray();
+        //$this->sheetData = $this->spreadsheet->getActiveSheet()->rangeToArray($range," ", true, true, true);
+        $this->sheetData = $this->spreadsheet->getActiveSheet()->toArray(null, true, true, true);
+        return $this->sheetData;
+        /*
+        $reader = IOFactory::createReaderForFile($filePath);
+        $reader->setReadDataOnly(TRUE);
+        //$reader->setReadEmptyCells(FALSE);
+        $spreadsheet = $reader->load($filePath);
+        $this->sheetData = $spreadsheet->getActiveSheet()->toArray();
+        return $this->sheetData;
+        */
+    }
+    function isEmpty($filePath)
+    {
+        $this->spreadsheet = IOFactory::load($filePath);   
+        $this->sheet = $this->spreadsheet->getActiveSheet(); 
+        
+        // Initialize a flag to check if the sheet is empty
+        $isEmpty = 1;  
+
+        // Iterate through the rows and columns to check for non-empty cells
+        foreach ($this->sheet->getRowIterator() as $row) 
+        {
+            $cellIterator = $row->getCellIterator();
+            //$cellIterator->setIterateOnlyExistingCells(true); // This skips empty cells
+            $row = array();
+
+            foreach ($cellIterator as $cell) 
+            { 
+                if ($cell->getValue() !== null) 
+                {                    
+                    $isEmpty = 0;                   
+                }
+            }           
+        }        
+        return $isEmpty;
+    }
     function saveSpreadsheet($filePath)
     {
         $writer = new Xlsx($this->spreadsheet);

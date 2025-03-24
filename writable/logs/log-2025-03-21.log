@@ -1,0 +1,95 @@
+DEBUG - 2025-03-21 06:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-21 07:03:13 --> Error: Class "App\Libraries\FileUploader" not found
+[Method: POST, Route: Home/file_upload_action]
+in APPPATH\Controllers\Home.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_upload_action()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-21 07:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-21 08:10:50 --> ErrorException: Undefined array key "type"
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 305.
+ 1 APPPATH\Controllers\Home.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 305)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 09:51:30 --> ErrorException: Undefined variable $res
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 321.
+ 1 APPPATH\Controllers\Home.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 321)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 09:54:58 --> Error: Call to undefined method PhpOffice\PhpSpreadsheet\Spreadsheet::toArray()
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 37.
+ 1 APPPATH\Controllers\Home.php(318): App\Libraries\SpreadsheetLibrary->loadSpreadsheetData('C:\\xampp\\tmp\\phpC1AC.tmp')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 10:45:48 --> ErrorException: Undefined variable $res
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 331.
+ 1 APPPATH\Controllers\Home.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 10:53:49 --> ErrorException: Undefined variable $res
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 339.
+ 1 APPPATH\Controllers\Home.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 339)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 11:01:25 --> ErrorException: Undefined variable $res
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 360.
+ 1 APPPATH\Controllers\Home.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 360)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 11:02:35 --> ErrorException: Undefined variable $res
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 363.
+ 1 APPPATH\Controllers\Home.php(363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 363)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-21 11:25:16 --> PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate L
+[Method: POST, Route: Home/file_import_action]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 44.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(222): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('L')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(2916): PhpOffice\PhpSpreadsheet\Cell\Coordinate::rangeBoundaries('A1:L')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(2883): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->rangeToArrayYieldRows('A1:L', ' ', true, true, true, false, false)
+ 4 APPPATH\Libraries\SpreadsheetLibrary.php(71): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->rangeToArray('A1:L', ' ', true, true, true)
+ 5 APPPATH\Controllers\Home.php(320): App\Libraries\SpreadsheetLibrary->loadSpreadsheetData('C:\\xampp\\tmp\\php6D7A.tmp', 'A1:L')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

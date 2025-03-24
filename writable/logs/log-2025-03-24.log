@@ -1,0 +1,51 @@
+DEBUG - 2025-03-24 05:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-24 05:53:04 --> ArgumentCountError: Too few arguments to function App\Libraries\SpreadsheetLibrary::loadSpreadsheetData(), 1 passed in C:\xampp\htdocs\codeigniter46\app\Controllers\Home.php on line 325 and exactly 2 expected
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Libraries\SpreadsheetLibrary.php on line 67.
+ 1 APPPATH\Controllers\Home.php(325): App\Libraries\SpreadsheetLibrary->loadSpreadsheetData('writable/uploads/excel/67e0f34058d15_Test_Import.xlsx')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-24 06:19:46 --> ErrorException: Undefined array key 0
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 330.
+ 1 APPPATH\Controllers\Home.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-24 11:24:34 --> ErrorException: Undefined variable $res
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 365.
+ 1 APPPATH\Controllers\Home.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 365)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-24 11:30:18 --> ErrorException: Undefined array key 0
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 354.
+ 1 APPPATH\Controllers\Home.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 354)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-24 11:31:09 --> ErrorException: Undefined array key 1
+[Method: POST, Route: Home/file_import_action]
+in APPPATH\Controllers\Home.php on line 356.
+ 1 APPPATH\Controllers\Home.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\codeigniter46\\app\\Controllers\\Home.php', 356)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->file_import_action()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

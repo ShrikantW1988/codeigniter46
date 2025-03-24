@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Libraries\FileUploader;
+use App\Libraries\SpreadsheetLibrary;
 
 class Home extends BaseController
 {
@@ -241,5 +243,154 @@ class Home extends BaseController
         $countries = array_column($data,'name');
         //pre($countries);
         echo json_encode($countries);
+    }
+    public function test1()
+    {
+        echo view('layout/limitless/header');
+        echo view('layout/limitless/sidebar');
+        echo view('home/upload_file');
+        echo view('layout/limitless/footer');
+    }
+    public function file_upload_action()
+    {
+        $res = array();
+        //pre($_FILES);
+        // Initialize the FileUploader with custom settings
+        $uploader = new FileUploader(UPLOAD_PATH, ['image/jpeg', 'image/png'], 2 * 1024 * 1024);
+
+        // Check if a file was submitted
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) 
+        {
+            $file = $_FILES['file'];
+
+            // Attempt to upload the file
+            $uploadedFilePath = $uploader->upload($file);
+
+            if ($uploadedFilePath) 
+            {
+                $res['status'] = 'success';
+                $res['msg'] = 'File uploaded successfully. ';
+                $res['upload_path'] =  $uploadedFilePath;
+                
+            } else 
+            {
+                //echo "File upload failed. Errors: " . implode(', ', $uploader->getErrors());
+                $res['status'] = 'error';
+                $res['errors'] = array('file' => implode(', ', $uploader->getErrors()));                
+            }
+        }
+
+        die(json_encode($res));
+    }
+    public function test3()
+    {
+        echo view('layout/limitless/header');
+        echo view('layout/limitless/sidebar');
+        echo view('home/import_file');
+        echo view('layout/limitless/footer');
+    }
+    public function file_import_action()
+    {       
+        error_reporting(E_ALL);
+        ini_set('display_errors', '1');
+
+        $file = $_FILES['file'];
+        //pre($file);die;
+
+        $allowedTypes = array('xlsx','xls', 'xlsx'); // Allowed file extensions
+
+        $filename = $_FILES['file']['name'];
+        $ext = pathinfo($filename, PATHINFO_EXTENSION);
+
+        if (empty($file['name'])) 
+        {           
+            $res['status'] = 'error';
+            $res['errors'] = array('file' => 'File upload error: Plz upload file.');           
+        }
+        elseif (!in_array($ext, $allowedTypes)) 
+        {
+            $res['errors'] = array('file' => "Invalid file type. Allowed types are: " . implode(', ', $allowedTypes));            
+        }
+        else
+        {
+
+            //pre(UPLOAD_PATH);die;
+            //----upload file-----
+            $uploader = new FileUploader(UPLOAD_PATH.'excel/',  ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'], 2 * 1024 * 1024);
+            $uploadedFilePath = $uploader->upload($file);
+
+            if ($uploadedFilePath) 
+            {
+                $lib = new SpreadsheetLibrary();
+
+                if($lib->isEmpty(($uploadedFilePath)) == 0)
+                {
+                    $data = $lib->loadSpreadsheetData($uploadedFilePath);
+                    //pre($data);die;
+
+                    foreach($data[1] as $c)
+                    {
+                        if(!empty($c))
+                        {
+                            $excel_cols[] = trim($c);
+                        }                        
+                    }                   
+
+                    if($excel_cols[0] == 'Name' && $excel_cols[1] == 'Surname' && $excel_cols[2] == 'Email' && 
+                        $excel_cols[3] == 'Mobile' && $excel_cols[4] == 'City' && $excel_cols[5] == 'State' &&
+                        $excel_cols[6] == 'Country' && $excel_cols[7] == 'Roll No' && $excel_cols[8] == 'Branch' &&
+                        $excel_cols[9] == 'DOB' && $excel_cols[10] == 'Gander' && $excel_cols[11] == 'Pincode')
+                    {
+                        //--column headers are ok---
+                       
+                        $i = 0;
+                        $table_data = array();
+
+                        foreach($data as $d)
+                        {
+                            $i++;
+                            if($i == 1){ continue; }
+                            $row = array();
+                            $row['name'] = $d['A'];
+                            $row['surname'] = $d['B'];
+                            $row['email'] = $d['C'];
+                            $row['mobile'] = $d['D'];
+                            $row['city'] = $d['E'];
+                            $row['state'] = $d['F'];
+                            $row['country'] = $d['G'];
+                            $row['roll_no'] = $d['H'];
+                            $row['branch'] = $d['I'];
+                            $row['dob'] = $d['J'];
+                            $row['gander'] = $d['K'];
+                            $row['pincode'] = $d['L']; 
+
+                            //----row level validation----
+
+                            $table_data[] = $row;
+                        }                         
+
+                        pre($table_data);die;
+
+                    }
+                    else
+                    {
+                        $res['status'] = 'fail';
+                        $res['msg'] = 'Invalid excel headers!';
+                    } 
+
+                }
+                else
+                {
+                    $res['status'] = 'fail';
+                    $res['msg'] = 'No data found in excel!';
+                }               
+                                   
+            }          
+            
+            //$spreadsheet = $lib->loadSpreadsheet($file['tmp_name']);
+            //$sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);                       
+        }
+
+        die(json_encode($res));
     }
 }
